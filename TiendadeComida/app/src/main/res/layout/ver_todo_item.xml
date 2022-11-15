@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:id="@+id/verTodo_img"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fruta"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/verTodo_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Nombre:"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descripcion_verTodo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Descripcion:"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:singleLine="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Precio $"/>
+
+                <TextView
+                    android:id="@+id/verTodo_precio"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/roboto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="30"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_ratingbar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vertodo_rating"
+                    android:text="5.0"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="5dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/right_arrow"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

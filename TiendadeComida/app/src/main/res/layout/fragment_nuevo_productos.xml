@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NuevoProductosFragment">
+
+    <!-- TODO: Update blank fragment layout
+
+    -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/nav_nuevos_productos_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginBottom="66dp"
+            android:src="@mipmap/frutasyverduras"
+            app:layout_constraintBottom_toTopOf="@+id/navTextProdctos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias=".3" />
+
+        <TextView
+            android:id="@+id/navTextProdctos"
+            android:layout_width="0dp"
+            android:textColor="@color/purple_700"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="167dp"
+            android:fontFamily="@font/roboto"
+            android:text="No hay productos en este momento, vuelve mas tarde"
+            app:layout_constraintVertical_bias="0"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nav_nuevos_productos_img" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

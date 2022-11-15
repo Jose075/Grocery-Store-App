@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tiendadecomida.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!--fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.tiendadecomida.ui.perfil.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" /-->
+
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.tiendadecomida.ui.categoria.CategoriaFragment"
+        android:label="@string/categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_ofertas"
+        android:name="com.example.tiendadecomida.OfertasFragment"
+        android:label="@string/ofertas"
+        tools:layout="@layout/fragment_ofertas" />
+    <fragment
+        android:id="@+id/nav_nuevos_productos"
+        android:name="com.example.tiendadecomida.NuevoProductosFragment"
+        android:label="@string/nuevos_productos"
+        tools:layout="@layout/fragment_nuevo_productos" />
+    <fragment
+        android:id="@+id/nav_pedidos"
+        android:name="com.example.tiendadecomida.PedidosFragment"
+        android:label="Historial de Pedidos"
+        tools:layout="@layout/fragment_pedidos" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.tiendadecomida.CarritoFragment"
+        android:label="@string/carrito"
+        tools:layout="@layout/fragment_carrito" />
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.tiendadecomida.ui.ValidacionFragment"
+        android:label="Editar Perfil"
+        tools:layout="@layout/fragment_validacion" />
+    <!--fragment
+            android:label="@string/pedidos"
+        android:id="@+id/cerrarSesionFragment"
+        android:name="com.example.tiendadecomida.CerrarSesionFragment"
+        android:label="fragment_cerrar_sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" /-->
+</navigation>

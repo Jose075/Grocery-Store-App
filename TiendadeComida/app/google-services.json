@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863723774866",
+    "project_id": "tienda-de-comida",
+    "storage_bucket": "tienda-de-comida.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863723774866:android:ee1c344f1c88742bad974b",
+        "android_client_info": {
+          "package_name": "com.example.tiendadecomida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863723774866-n6jsbn002mfqti103otbcavtt1pn8n58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTs5nymKDqy8Mwk4zkNzfIpqJwVyBWRk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863723774866-n6jsbn002mfqti103otbcavtt1pn8n58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

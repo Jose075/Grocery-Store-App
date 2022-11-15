@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.perfil.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout
+
+     -->
+
+    <!--ImageView
+        android:id="@+id/perfil_img"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/perfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombre_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/search_gb"
+        android:elevation="3dp"
+        android:hint="Nombre"
+        android:padding="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perfil_img"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/apellido_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_gb"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:hint="Apellido"
+        android:padding="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_perfil"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/correo_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_gb"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:hint="Correo"
+        android:padding="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellido_perfil"
+        app:layout_constraintWidth_percent=".8" />
+
+
+    <EditText
+        android:id="@+id/contraseña_perfil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_gb"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:hint="Nueva Contraseña"
+        android:padding="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correo_perfil"
+        app:layout_constraintWidth_percent=".8" />
+
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Actualizar"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña_perfil"
+        app:layout_constraintVertical_bias="0.3"
+        /-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
